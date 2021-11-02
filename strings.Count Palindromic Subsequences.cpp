@@ -19,7 +19,7 @@ long long int  countPS(string str)
            dp[i][j]=2;
        }
        
-       for(int k=2;k<n;k++)
+       for(int k=1;k<n;k++)
        {
            int i=0,j=k;
            while(i<n && j<n)
